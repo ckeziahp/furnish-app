@@ -1,6 +1,16 @@
+import { aboutShow } from "../../../assets"
+
 const About = () => {
   return (
-    <div>About</div>
+    <div style={{
+      backgroundImage: `url(${aboutShow})`,
+      width: "100vw",
+      height: "98vh",
+      position: "relative",
+      backgroundSize: "cover"
+    }}>
+      back
+    </div>
   )
 }
 

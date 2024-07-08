@@ -7,7 +7,7 @@ const Services = () => {
         (service,index) => {
           return (
           <div key={index}  style={{backgroundColor: service.bgColor}} className="p-10">
-            <span><Handshake/></span>
+            <span>{service.Icons}</span>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
           </div>
